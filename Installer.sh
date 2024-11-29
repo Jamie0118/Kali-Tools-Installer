@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # Ensure the script is run as root
@@ -30,6 +31,12 @@ install_tools() {
     echo "15) Hardware hacking"
     echo "16) Social engineering"
     echo "17) Post-exploitation"
+    echo "18) Cloud penetration testing"
+    echo "19) Mobile device tools"
+    echo "20) Container security"
+    echo "21) Malware analysis"
+    echo "22) OSINT (Open Source Intelligence)"
+    echo "23) Cryptography tools"
     echo
     echo " 0) Exit"
     echo
@@ -106,6 +113,30 @@ install_tools() {
             17)
                 echo "Installing post-exploitation tools..."
                 apt update && apt install -y kali-tools-post-exploitation
+                ;;
+            18)
+                echo "Installing cloud penetration testing tools..."
+                apt update && apt install -y kali-tools-cloud
+                ;;
+            19)
+                echo "Installing mobile device tools..."
+                apt update && apt install -y kali-tools-mobile
+                ;;
+            20)
+                echo "Installing container security tools..."
+                apt update && apt install -y kali-tools-container
+                ;;
+            21)
+                echo "Installing malware analysis tools..."
+                apt update && apt install -y kali-tools-malware
+                ;;
+            22)
+                echo "Installing OSINT tools..."
+                apt update && apt install -y kali-tools-osint
+                ;;
+            23)
+                echo "Installing cryptography tools..."
+                apt update && apt install -y kali-tools-crypto
                 ;;
             0)
                 echo "Exiting..."
