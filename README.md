@@ -33,17 +33,17 @@ The script supports the installation of the following Kali Linux tool categories
 ## Installation Instructions
 1. Download the script:
     ```bash
-    curl -O https://example.com/kali-tool-installer.sh
+    curl -O https://github.com/Jamie0118/Kali-Tools-Installer/Installer.sh
     ```
 
 2. Make the script executable:
     ```bash
-    chmod +x kali-tool-installer.sh
+    chmod +x Installer.sh
     ```
 
 3. Run the script as root:
     ```bash
-    sudo ./kali-tool-installer.sh
+    sudo ./Installer.sh
     ```
 
 ## Usage
@@ -60,6 +60,3 @@ The script will automatically update your package list and install the selected 
 
 ## Contributing
 If you’d like to contribute to this project, feel free to submit a pull request or report any issues.
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
