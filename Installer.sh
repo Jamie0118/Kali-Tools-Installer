@@ -1,6 +1,18 @@
 
 #!/bin/bash
+cat << "EOF"
 
+
+       _                 _         ___  __ __  ___  
+      | |               (_)       / _ \/_ /_ |/ _ \ 
+      | | __ _ _ __ ___  _  ___  | | | || || | (_) |
+  _   | |/ _` | '_ ` _ \| |/ _ \ | | | || || |> _ < 
+ | |__| | (_| | | | | | | |  __/ | |_| || || | (_) |
+  \____/ \__,_|_| |_| |_|_|\___|  \___/ |_||_|\___/ 
+                                                    
+                                                    
+
+EOF
 # Ensure the script is run as root
 if [[ $EUID -ne 0 ]]; then
     echo "This script must be run as root. Please use sudo."
